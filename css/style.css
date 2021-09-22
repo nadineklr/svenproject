@@ -19,14 +19,39 @@ body {
 
 .container {
   background: white;
-  width: 70%;
-  height: 60%;
+  width: 900px;
+  height: 500px;
   border-radius: 10px;
   box-shadow: 0 0 50px 3px black;
-}
-
-.cat-image {
+  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+
+
+.cat-image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cat-image img {
+  width: 500px;
+  
+}
+
+.container-facts {
+  background-color: rgb(214, 169, 255);
+  height: 300px;
+  width: 500px;
+  border-radius: 5px;
+  margin: 1rem;
+
+
+
+
+}
+
+
