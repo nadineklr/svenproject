@@ -1,0 +1,27 @@
+
+
+/* css reset small */
+*{
+  margin: 0;
+  padding: 0;
+}
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgb(255, 191, 202), rgb(255, 101, 126), rgb(152, 79, 248));
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  width: 70%;
+  height: 60%;
+  border-radius: 10px;
+  box-shadow: 0 0 50px 3px black;
+
+}
